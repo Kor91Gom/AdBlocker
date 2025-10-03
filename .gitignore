@@ -1,0 +1,33 @@
+# 모든 위치의 build 및 release 폴더 제외
+build/
+release/
+
+**/build/
+**/release/
+
+# Qt Creator 사용자 설정 파일 제외
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# 빌드 결과물 제외
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.app
+*.a
+*.lib
+
+# Qt 자동 생성 파일 제외
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# macOS 및 Windows 시스템 파일 제외
+.DS_Store
+Thumbs.db
